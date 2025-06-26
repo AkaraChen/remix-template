@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - `pnpm run dev`: Starts the development server.
 - `pnpm run build`: Builds the application for production.
-- `pnpm run lint`: Runs ESLint to check for code style issues.
+- `pnpm run lint`: Runs OXLint to check for code style issues.
 - `pnpm run preview`: Previews the production build locally.
 - `pnpm run typecheck`: Runs TypeScript to check for type errors.
 
