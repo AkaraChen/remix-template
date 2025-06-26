@@ -1,7 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import { ColumnDef } from "@tanstack/react-table";
 import { Checkbox } from "@/components/ui/checkbox";
-import { DataTable } from "@/components/ui/data-table";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -12,7 +11,6 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { MoreHorizontal } from "lucide-react";
-import { DataTableColumnHeader } from "@/components/ui/data-table/column-header";
 
 export const meta: MetaFunction = () => {
   return [
