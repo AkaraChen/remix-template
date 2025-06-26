@@ -23,6 +23,7 @@ This is a [Remix SPA Mode](https://remix.run/docs/en/main/guides/spa-mode) appli
     - `tailwind.css`: Main Tailwind CSS file.
 - `components/ui/`: Houses reusable UI components, likely following Shadcn UI patterns, built on top of Radix UI primitives.
 - `lib/utils.ts`: Common utility functions.
+- Component files should be named using `kebab-case` (e.g., `my-component.tsx`).
 - `public/`: Static assets like `favicon.ico`.
 - Configuration files:
     - `package.json`: Project dependencies and scripts.
